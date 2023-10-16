@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _printf - Jecinta and karamagueye Printf function
  * print_unsigned - Printing an unsigned number
  * @types: List a of arguments input
  * @buffer: Buffer array to handle print input
@@ -34,7 +35,8 @@ int print_unsigned(va_list types, char buffer[],
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_octal - Printing an unsigned number in octal notation
  * @types: Lista of arguments input
  * @buffer: Buffer array to handle print input
@@ -75,7 +77,8 @@ int print_octal(va_list types, char buffer[],
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_hexadecimal - Printing an unsigned number in hexadecimal notation
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
@@ -92,7 +95,8 @@ int print_hexadecimal(va_list types, char buffer[],
 		flags, 'x', width, precision, size));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_hexa_upper - Printing an unsigned number in upper hexadecimal notation
  * @types: Lista of arguments input
  * @buffer: Buffer array to handle print input
@@ -109,7 +113,8 @@ int print_hexa_upper(va_list types, char buffer[],
 		flags, 'X', width, precision, size));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_hexa - Printing a hexadecimal number in lower or upper
  * @types: Lista of arguments input
  * @map_to: Array of values to map the number to input
