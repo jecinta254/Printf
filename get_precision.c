@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * get_precision - calculating the precision for printing
  * @format: Formatted string where it prints the arguments
  * @i: List of arguments to be printed input
