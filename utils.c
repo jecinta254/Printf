@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * is_printable - Evaluating fuction if a char is printable
  * @c: Char to be evaluated input
  * Return: 1 if c is printable, 0 otherwise
@@ -12,7 +13,8 @@ int is_printable(char c)
 
 	return (0);
 }
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * append_hexa_code - Appending ascci in hexadecimal code to buffer
  * @buffer: Array of characters
  * @i: Index at which to start appending input
@@ -35,7 +37,8 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 	return (3);
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * is_digit - this function verifies if a char is a digit
  * @c: Char to be evaluated as input
  * Return: 1 if c is a digit, 0 otherwise
@@ -48,7 +51,8 @@ int is_digit(char c)
 	return (0);
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * convert_size_number - Casts a number to the specified size
  * @num: Number to be casted input
  * @size: Number indicating the type to be casted input
@@ -64,7 +68,8 @@ long int convert_size_number(long int num, int size)
 	return ((int)num);
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * convert_size_unsgnd - Casting a number to the specified size
  * @num: Number to be casted input
  * @size: Number indicating the type to be casted input
