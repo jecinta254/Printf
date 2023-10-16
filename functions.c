@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ *_printf - Jecinta and karamagueye Printf function
  * print_char - Printing a character in this fuction
  * @types: List a of arguments input
  * @buffer: Buffer array to handle print input
@@ -17,7 +18,8 @@ int print_char(va_list types, char buffer[],
 
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_string - Printing a string
  * @types: List a of arguments input
  * @buffer: Buffer array to handle print input
@@ -71,7 +73,8 @@ int print_string(va_list types, char buffer[],
 
 	return (write(1, str, length));
 }
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_percent - Printing a percent sign
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print as input
@@ -93,7 +96,8 @@ int print_percent(va_list types, char buffer[],
 	return (write(1, "%%", 1));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_int - Printing an integer
  * @types: Lists of arguments
  * @buffer: Buffer array to handle print input
@@ -136,7 +140,8 @@ int print_int(va_list types, char buffer[],
 	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_binary - Printing an unsigned number as our function
  * @types: Lista of arguments input as well
  * @buffer: Buffer array to handle print in this case an input
