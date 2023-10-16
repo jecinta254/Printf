@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * handle_write_char - This fuction will Print a string for the task
  * @c: char types input
  * @buffer: Buffer array to handle print input
@@ -42,7 +43,8 @@ int handle_write_char(char c, char buffer[],
 	return (write(1, &buffer[0], 1));
 }
 
-/**
+/** 
+ *_printf - Jecinta and karamagueye Printf function
  * write_number - Our fuction here is going to Print a string
  * @is_negative: Lista of arguments
  * @ind: char types.
@@ -75,7 +77,8 @@ int write_number(int is_negative, int ind, char buffer[],
 		length, padd, extra_ch));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * write_num - Writing a number using a bufffer for our fuction
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer input
@@ -133,7 +136,8 @@ int write_num(int ind, char buffer[],
 	return (write(1, &buffer[ind], length));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * write_unsgnd - Writing an unsigned number for this function
  * @is_negative: Number indicating if the num is negative
  * @ind: Index where the number starts in the buffer
@@ -191,6 +195,7 @@ int write_unsgnd(int is_negative, int ind,
 }
 
 /**
+ * _printf - Jecinta and karamagueye Printf function
  * write_pointer - Writing a memory address as our fuction
  * @buffer: Arrays of characters
  * @ind: Index at which the number starts in the buffer input
