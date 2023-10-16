@@ -1,5 +1,6 @@
 #include "main.h"
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * handle_print - Printing an argument based on its type
  * @fmt: Formatted stringwhere it prints the arguments.
  * @list: List of arguments to be print.
