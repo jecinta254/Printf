@@ -3,7 +3,7 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Jecinta and Printf function
+ * _printf - Jecinta and karamagueye Printf function
  * @format: format input.
  * Return: Our Printed character.
  */
