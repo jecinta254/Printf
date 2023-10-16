@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _printf - Jecinta and karamagueye Printf function
  * get_width - calculating the width to print
  * @format: Formatted string where it prints the arguments.
  * @i: List of arguments to be printed input.
