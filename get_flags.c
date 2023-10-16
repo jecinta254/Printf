@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * get_flags - This fuction will calculate active flags
  * @format: Formatted string that print the arguments
  * @i: take a parameter input
