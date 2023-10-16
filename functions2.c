@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _printf - Jecinta and karamagueye Printf function
  * print_pointer - Printing the value of a pointer variable
  * @types: List a of arguments still as input
  * @buffer: Buffer array to handle print input
@@ -51,7 +52,8 @@ int print_pointer(va_list types, char buffer[],
 		width, flags, padd, extra_c, padd_start));
 }
 
-/**
+/** 
+ *_printf - Jecinta and karamagueye Printf function
  * print_non_printable - Printing ascii codes in hexa of non printable chars
  * @types: Lista of arguments input
  * @buffer: Buffer array to handle print input
@@ -90,7 +92,8 @@ int print_non_printable(va_list types, char buffer[],
 	return (write(1, buffer, i + offset));
 }
 
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_reverse - Printing reverse string.
  * @types: Lista of arguments input
  * @buffer: Buffer array to handle print input
@@ -132,7 +135,8 @@ int print_reverse(va_list types, char buffer[],
 	}
 	return (count);
 }
-/**
+/** 
+ * _printf - Jecinta and karamagueye Printf function
  * print_rot13string - Printing a string in rot13.
  * @types: Lista of arguments input
  * @buffer: Buffer array to handle print input
