@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _printf - Jecinta and karamagueye Printf function
  * get_size - calculating the size to cast the argumentus
  * @format: Formatted string where it print the arguments
  * @i: List of arguments to be printed input
