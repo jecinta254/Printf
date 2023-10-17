@@ -20,7 +20,7 @@
 
 /**
  * struct fmt - Struct op
- *
+ * this was created by Karama
  * @fmt: The format.
  * @fn: The function associated.
  */
@@ -33,7 +33,7 @@ struct fmt
 
 /**
  * typedef struct fmt fmt_t - Struct op
- * this is our input
+ * this was created by Jecinta
  * @fmt: The format.
  * @fm_t: The function associated.
  */
@@ -43,9 +43,9 @@ int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
-/****************** FUNCTIONS from jecinta******************/
+/****************** FUNCTIONS file******************/
 
-/* Funtions to print chars and strings */
+/* Funtions to print chars and strings file */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[],
@@ -53,7 +53,7 @@ int print_string(va_list types, char buffer[],
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Functions to print numbers file */
+/* Functions to print numbers file*/
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_binary(va_list types, char buffer[],
@@ -70,15 +70,15 @@ int print_hexa_upper(va_list types, char buffer[],
 int print_hexa(va_list types, char map_to[],
 char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
-/* Function to print non printable characters  file*/
+/* Function to print non printable characters file*/
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Funcion to print memory address file */
+/* Funcion to print memory addres file */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Funciotns to handle other specifiers file */
+/* Funciotns to handle other specifiers file*/
 int get_flags(const char *format, int *i);
 int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
@@ -106,7 +106,7 @@ int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
 
-/****************** UTILS file *****************/
+/****************** Utils file******************/
 int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
@@ -114,4 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
+#endif
