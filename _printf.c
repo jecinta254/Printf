@@ -53,7 +53,6 @@ int _printf(const char *format, ...)
 }
 
 /**
- * _printf - Jecinta and karamagueye Printf function
  * print_buffer - This fuction will Prints
  * the contents of the buffer if it exist
  * @buffer: Array of characters as our input
