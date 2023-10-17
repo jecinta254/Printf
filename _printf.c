@@ -3,9 +3,9 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Jecinta and karamagueye Printf function
- * @format: format input.
- * Return: Our Printed character.
+ * _printf - Printf function created by Jecinta and Karama
+ * @format: format input
+ * Return: Printed chars.
  */
 int _printf(const char *format, ...)
 {
@@ -53,11 +53,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - This fuction will Prints
- * the contents of the buffer if it exist
- * @buffer: Array of characters as our input
- * @buff_ind: Index at which to add next character,
- * represents the length.
+ * print_buffer - Printing the contents of the buffer if it exist
+ * @buffer: Array of characters as input
+ * @buff_ind: Index at which to add next char, represents the length.
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
@@ -66,4 +64,3 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
-
