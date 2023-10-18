@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdarg.h>
 
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Printf function for the task
- * this was created by Jecinta and Karama
+ * _printf - Printf function
+ * this was created by karama and Jecinta
  * @format: format.
  * Return: Printed chars.
  */
@@ -55,9 +54,8 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Printing the contents of the buffer
- * if it exist it should print. by karama and Jecinta
- * @buffer: Array of chars
+ * print_buffer - Printing only contents of the buffer if it exist
+ * @buffer: Array of chars as input
  * @buff_ind: Index at which to add next char, represents the length.
  */
 void print_buffer(char buffer[], int *buff_ind)
